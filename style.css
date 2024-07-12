@@ -1,0 +1,13 @@
+nav{
+    background-color: chocolate;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle{
+    position: relative;
+    background-color: aquamarine;
+    width: 400px;
+    left: 100px;
+}
