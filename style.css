@@ -1,13 +1,14 @@
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: bisque;
+    background-color: rgb(8, 0, 77);
+    color: rgb(93, 0, 255);
 }
 
 nav{
     position: fixed;
     top: 0px;
-    background-color: chocolate;
+    background-color: rgb(10, 0, 148);
     height: 50px;
     width: 100%;
 }
@@ -18,7 +19,7 @@ nav span{
 }
 
 nav a{
-    color: black;
+    color: rgb(192, 28, 28);
     float: right;
     margin-left: 10px;
     margin-right: 10px;
@@ -26,7 +27,38 @@ nav a{
 
 .middle{
     margin-top: 50px;
-    background-color: tomato;
-    margin-left: 100px;
-    margin-right: 100px;
+    background-color: rgb(27, 27, 27);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.quote{
+    margin: 15px;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    margin: 15px;
+    float: right;
+    height: 200px;
+    width: 200px;
+}
+
+.box {
+    background-color: black;
+    margin: 15px;
+    display: block;
+    height: 300px;
+}
+
+.home{
+    font-size: 2rem;
+    height: 500px;
+    margin: 15px;
+}
+
+.homeimg{
+    height: 400px;
+    width: 250px
 }
