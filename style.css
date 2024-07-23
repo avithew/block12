@@ -19,17 +19,28 @@ nav span {
 }
 
 nav a {
-  color: rgb(192, 28, 28);
+  color: rgb(161, 0, 0);
   float: right;
   margin-left: 10px;
   margin-right: 10px;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 400px;
+  margin-right: 400px;
+  height: 300px;
+}
+
 .border {
-  margin-top: 50px;
-  background-color: rgb(27, 27, 27);
+  padding-top: 50px;
+  background-color: rgb(7, 9, 29);
   margin-left: 50px;
   margin-right: 50px;
+  /* Proportional unit */
+  min-height: 91vh;
 }
 
 .flex {
@@ -40,12 +51,16 @@ nav a {
 .grid {
   display: grid;
   height: auto;
+  grid-template-columns: [c1] 3fr [c2] 2fr [c3];
+  grid-template-rows: [r1] 3fr [r2] 2fr [r3];
 }
 
 .quote {
   margin: 15px;
   font-size: 2rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  grid-column: c1 / c3;
+  grid-row: r2 / r3;
 }
 
 img {
@@ -64,11 +79,16 @@ img {
 
 .home {
   font-size: 2rem;
-  height: 500px;
+  height: 400px;
   margin: 15px;
+  grid-column: c1 / c2;
+  grid-row: r1 / r2;
 }
 
 .homeimg {
-  height: 400px;
-  width: 250px;
+  height: 300px;
+  width: 186px;
+  justify-self: end;
+  grid-column: c2 / c3;
+  grid-row: r1 / r2;
 }
