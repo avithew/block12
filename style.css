@@ -7,6 +7,8 @@ body {
 
 nav {
   position: fixed;
+  display: flex;
+  align-items: center;
   top: 0px;
   background-color: rgb(10, 0, 148);
   height: 50px;
@@ -18,9 +20,12 @@ nav span {
   font-size: 1.5rem;
 }
 
+.navlinks {
+  margin-left: auto;
+}
+
 nav a {
   color: rgb(161, 0, 0);
-  float: right;
   margin-left: 10px;
   margin-right: 10px;
 }
