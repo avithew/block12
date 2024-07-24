@@ -97,3 +97,10 @@ img {
   grid-column: c2 / c3;
   grid-row: r1 / r2;
 }
+
+input[type="text"],
+input[type="email"],
+textarea {
+  background-color: rgb(12, 0, 99);
+  color: aliceblue;
+}
